@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ResumeForm } from "./components/ResumeForm";
 import { StepNav } from "./components/StepNav";
-import { OptimizeResult, Tone, Level } from "./lib/resumeTypes";
+import { OptimizeResult, Tone, Level } from "../lib/resumeTypes";
 
 type Theme = "dark" | "light";
 
